@@ -24,13 +24,17 @@ navbar.addEventListener('mouseenter', function() {
 navbar.addEventListener('mouseleave', function() {
   navbar.classList.remove('show');
 });
+
 window.addEventListener('scroll', function() {
   var logo = document.querySelector('.logoPrincipal');
   var scrollPosition = window.scrollY;
 
-  if (scrollPosition > 100) { // Cambia este valor según tus necesidades
+  if (scrollPosition > 100) { // para que aparezca el logo mayor a 100px  
       logo.classList.add('visible');
   } else {
       logo.classList.remove('visible');
   }
 });
+
+
+
