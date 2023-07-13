@@ -82,6 +82,7 @@ body{
 }
 .logo h2 {
     margin: 0.5rem;
+    color: #fff;
 }
 .logoPrincipal {
     position: fixed;
@@ -207,7 +208,12 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-  
+.box section{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}  
 .event-container {
     display: flex;
     flex-direction: column;
@@ -234,7 +240,7 @@ body{
   
 .event-details {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-left: 20px;
     font-size: 20px;
   
